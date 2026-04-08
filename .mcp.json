@@ -1,11 +1,11 @@
 {
   "mcpServers": {
     "meta-ads": {
-      "command": "uvx",
-      "args": ["meta-ads-manager-mcp"],
-      "env": {
-        "META_ACCESS_TOKEN": "EAAXkyZC8Ok64BREa6GcyncBqc1F84arPVpDU2BQd9aGsMvNnqABZCdzBHutvNFyKKhl64TIm7tRfxdWJ8uN59JXeZBdiQff3MeiOvVBmbUIVn3mZARabfwaaX2AoG1p5ZAZBPV5Tro1ZAvdFed95QWMIICkZBCYSlA4EnYmgEZBEbsGoZCMSC6rNoObNed8XgsrVG3AH5cZCAh2HnGvbHsVd3xze1JTWar1Hjm0U0xYIPTbLeLuhs31A7CUwz66acTN23k978SsNZAdaKKoQF9uZCbMLOxaZBv1wZDZD"
-      }
+      "command": "bash",
+      "args": [
+        "-c",
+        "META_ACCESS_TOKEN=EAAXkyZC8Ok64BREa6GcyncBqc1F84arPVpDU2BQd9aGsMvNnqABZCdzBHutvNFyKKhl64TIm7tRfxdWJ8uN59JXeZBdiQff3MeiOvVBmbUIVn3mZARabfwaaX2AoG1p5ZAZBPV5Tro1ZAvdFed95QWMIICkZBCYSlA4EnYmgEZBEbsGoZCMSC6rNoObNed8XgsrVG3AH5cZCAh2HnGvbHsVd3xze1JTWar1Hjm0U0xYIPTbLeLuhs31A7CUwz66acTN23k978SsNZAdaKKoQF9uZCbMLOxaZBv1wZDZD META_AD_ACCOUNT_ID=1472460844513922 META_PAGE_ID=805377759330078 uvx meta-ads-manager-mcp"
+      ]
     }
   }
 }
