@@ -2,7 +2,10 @@
   "mcpServers": {
     "meta-ads": {
       "command": "uvx",
-      "args": ["meta-ads-manager-mcp"]
+      "args": ["meta-ads-manager-mcp"],
+      "env": {
+        "META_ACCESS_TOKEN": "${META_ACCESS_TOKEN}"
+      }
     }
   }
 }
